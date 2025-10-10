@@ -21,23 +21,24 @@ const Projects = () => {
         
         {projects.map((project) => (
           <Link
-            to={project.path}
-            key={project.id}
-            className="relative h-64 sm:h-72 md:h-80 lg:h-[28rem] w-full overflow-hidden rounded-lg group"
-          >
-            <div
-              className="h-full w-full bg-cover bg-center transform transition duration-500 lg:group-hover:scale-95"
-              style={{ backgroundImage: `url(${project.image})` }}
-            >
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-black lg:bg-opacity-40 lg:opacity-0 lg:group-hover:opacity-100 transition duration-500"></div>
+  to={project.path}
+  key={project.id}
+  className="relative h-64 sm:h-72 md:h-80 lg:h-[28rem] w-full overflow-hidden rounded-lg group"
+>
+  <div
+    className="h-full w-full bg-cover bg-center transform transition duration-500 lg:group-hover:scale-95"
+    style={{ backgroundImage: `url(${project.image})` }}
+  >
+    {/* Overlay — only visible on large screens */}
+    <div className="absolute inset-0 hidden lg:block bg-black bg-opacity-40 opacity-0 lg:group-hover:opacity-100 transition duration-500"></div>
 
-              {/* Title */}
-              <span className="absolute bottom-6 left-6 font-netflix text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white transition duration-500 lg:group-hover:scale-110 lg:group-hover:text-purple-900">
-                {project.title}
-              </span>
-            </div>
-          </Link>
+    {/* Title */}
+    <span className="absolute bottom-6 left-6 font-netflix text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white transition duration-500 lg:group-hover:scale-110 lg:group-hover:text-purple-900">
+      {project.title}
+    </span>
+  </div>
+</Link>
+
         ))}
       </div>
     </section>
