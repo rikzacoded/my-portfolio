@@ -22,9 +22,7 @@ const Home = () => {
           <h1 className="font-netflix text-4xl sm:text-6xl md:text-6xl lg:text-6xl text-purple-900 font-bold">
             Rikza Afaf
           </h1>
-          {/* <h3 className="font-netflix text-2xl sm:text-4xl md:text-7xl lg:text-6xl text-purple-900 font-bold">
-            Afaf
-          </h3> */}
+          
         </div>
 
         {/* Top-right LinkedIn */}
