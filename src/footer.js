@@ -12,7 +12,7 @@ const Footer = () => {
       {/* Left buttons: Resume */}
       <div className="flex flex-col sm:flex-row items-center gap-4">
         <a
-          href="/Resume.pdf" // replace with actual resume path
+          href="/Resume.docx" // replace with actual resume path
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-purple-900 hover:text-purple-500 transition-colors"
