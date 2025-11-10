@@ -17,7 +17,8 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-purple-900 hover:text-purple-500 transition-colors"
         >
-          <span>Resume</span>
+          {/* <span>Resume</span> */}
+           <span>Resume</span>
         </a>
       </div>
 
