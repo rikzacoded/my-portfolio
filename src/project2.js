@@ -263,7 +263,7 @@ const Project2 = () => {
             The deployment was hosted on <strong>Vercel</strong>, ensuring fast build
             times and seamless global accessibility.
           </p>
-          <p className="text-sm sm:text-base md:text-lg leading-relaxed text-purple-700">
+          {/* <p className="text-sm sm:text-base md:text-lg leading-relaxed text-purple-700">
             Here is the link: <br />
             <a 
               href="https://netflix-git-master-rikzprogs-projects.vercel.app/" 
@@ -273,7 +273,7 @@ const Project2 = () => {
             >
               Visit Netflix Clone
             </a>
-          </p>
+          </p> */}
         </section>
 
       </div>
