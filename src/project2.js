@@ -266,7 +266,7 @@ const Project2 = () => {
           <p className="text-sm sm:text-base md:text-lg leading-relaxed text-purple-700">
             Here is the link: <br />
             <a 
-              href="https://netflix-hvon2sfcf-rikzprogs-projects.vercel.app/" 
+              href="https://netflix-git-master-rikzprogs-projects.vercel.app/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-blue-600 underline"
