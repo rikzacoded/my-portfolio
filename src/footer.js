@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Resume link */}
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <a
-              href="public/resume.pdf" // ← make sure this file is in public folder
+              href="/resume.pdf" // ← make sure this file is in public folder
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-purple-900 hover:text-purple-500 transition-colors"
