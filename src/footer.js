@@ -259,7 +259,7 @@ const Footer = () => {
 
             <div className="flex items-center gap-2 text-purple-900 hover:text-purple-500 transition-colors">
               <FaEnvelope className="w-5 h-5" />
-              <span>afaf@gmail.com</span>
+              <span>rikzafaf@gmail.com</span>
             </div>
           </div>
 
