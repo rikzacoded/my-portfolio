@@ -1,29 +1,11 @@
 
-import { useState } from "react";
-// import Toast from "./Toast"; // Toast component
 import Projects from "./Projects";
 import LinkedIn from "./assets/Linkedin.jpg";
 import MainBg from "./assets/mainbg6.jpg";
 
 const Home = () => {
-  const [showToast, setShowToast] = useState(false);
-
-  // const handleLinkedInClick = () => {
-  //   setShowToast(true);
-
-  //   // Hide toast after 3 seconds
-  //   setTimeout(() => {
-  //     setShowToast(false);
-  //   }, 3000);
-  // };
-
   return (
     <div className="min-h-screen">
-
-      {/* Toast appears globally */}
-      {/* {showToast && (
-        <Toast message="This is a sample portfolio. LinkedIn profile can be shared upon request." />
-      )} */}
 
       {/* Banner (viewport height) */}
       <header className="h-screen relative flex items-center justify-center">
@@ -44,9 +26,9 @@ const Home = () => {
           </h1>
         </div>
 
-        {/* LinkedIn (NOW ENABLED LINK) */}
+        {/* LinkedIn link */}
         <a
-          href="https://www.linkedin.com/in/rikzafaf/" // ← replace with real profile
+          href="https://www.linkedin.com/in/rikzafaf/"
           target="_blank"
           rel="noopener noreferrer"
           className="absolute top-4 right-4 sm:top-6 sm:right-8 z-30 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 
