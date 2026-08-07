@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaPhone, FaEnvelope, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -19,6 +19,18 @@ const Footer = () => {
               <span>Resume</span>
             </a>
           </div>
+
+           <div className="flex flex-col sm:flex-row items-center gap-4">   <a
+          href="https://github.com/rikzacoded" // replace with actual GitHub link
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 text-purple-900 hover:text-purple-500 transition-colors"
+        >
+          <FaGithub className="w-5 h-5" />
+          <span>GitHub</span>
+        </a>
+        </div>  
+     
 
           {/* Contact info */}
           <div className="flex flex-col sm:flex-row items-center gap-4">
