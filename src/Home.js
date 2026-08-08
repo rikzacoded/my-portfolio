@@ -42,7 +42,7 @@ const Home = () => {
         {/* Center phrase */}
         <div className="relative z-20 mt-32 sm:mt-40 md:mt-48 text-center px-4 max-w-4xl">
           <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-purple-900 leading-relaxed">
-           I'm a web developer focused on building clean, responsive, and <br/> user-friendly web experiences. I work primarily with React.js, Next.js, JavaScript, and Tailwind CSS, turning ideas and designs into functional interfaces that work smoothly across devices. I enjoy solving problems through code, exploring new technologies, and continuously improving my development skills.
+           I'm a web developer focused on building clean, responsive, and user-friendly web experiences. I work primarily with React.js, Next.js, JavaScript, and Tailwind CSS, turning ideas and designs into functional interfaces that work smoothly across devices. I enjoy solving problems through code, exploring new technologies, and continuously improving my development skills.
 
           </h2>
         </div>
