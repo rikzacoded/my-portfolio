@@ -17,6 +17,7 @@ const Footer = () => {
               className="flex items-center gap-2 text-purple-900 hover:text-purple-500 transition-colors"
             >
               <span>Resume</span>
+              
             </a>
           </div>
 
@@ -33,6 +34,7 @@ const Footer = () => {
      
 
           {/* Contact info */}
+          {/*contact info*/}
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <div className="flex items-center gap-2 text-purple-900 hover:text-purple-500 transition-colors">
               <FaPhone className="w-5 h-5" />
