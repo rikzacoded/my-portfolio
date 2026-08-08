@@ -10,7 +10,7 @@ import mobile1 from "./assets/sing_home_mob.jpeg";
 import mobile2 from "./assets/sing_home_mob1.jpeg";
 import mobile3 from "./assets/mob_vocal_form.jpeg";
 import mobile4 from "./assets/mob_instru_form.jpeg";
-import mobile5 from "react-icons/ci";
+
 
 const Project2 = () => {
    const [showGallery, setShowGallery] = useState(false);
