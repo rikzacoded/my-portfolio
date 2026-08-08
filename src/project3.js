@@ -107,7 +107,8 @@ const Project3 = () => {
           <p className="text-sm sm:text-base md:text-lg leading-relaxed text-purple-700 mb-4">
             The completed modules became part of NAYATEL's internal TvaaS
             platform, providing responsive and reusable interfaces for managing
-            television and Video-on-Demand services.
+            television and Video-on-Demand services. The code and images associated with this project are confidential and cannot be shared in accordance with NAYATEL's company policy.
+
           </p>
 
           <p className="text-sm sm:text-base md:text-lg leading-relaxed text-purple-700 mb-4">
